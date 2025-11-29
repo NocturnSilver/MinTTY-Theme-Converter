@@ -10,15 +10,15 @@
     
 ## Usage
   
-python gitThemeMaker.py [filename] [option]
+    python gitThemeMaker.py [filename] [option]
     
-Options:
+    Options:
     
--h / --help                               prints the help on the terminal
--d / --default                            attempts to save the file in "C:/Program Files/Git/usr/share/mintty/themes"
--o [path/filename] / -O [path/filename]   saves the result on the specified path on the filename
+    -h / --help                               prints the help on the terminal
+    -d / --default                            attempts to save the file in "C:/Program Files/Git/usr/share/mintty/themes"
+    -o [path/filename] / -O [path/filename]   saves the result on the specified path on the filename
     
----------------------------------------------------------------------------------------------------------------
+## File Format
     
     file Format as input:
     
@@ -34,7 +34,7 @@ Options:
     
     The order of how the colors are arranged are shown below
     
-    ---------------------------------------------------------------------------------------------------------------
+## Description
     
     Uses the 16-Color ANSI Palette (used by CLI tools)
     - 8 bright colors
@@ -61,7 +61,7 @@ Options:
     BoldCyan	       14	Highlighted informational messages.
     BoldWhite	       15	Brightest text; often used for prompt or emphasized output.
     
-    ---------------------------------------------------------------------------------------------------------------
+## Future Updates
     
     Future updates:
     - Allow different file types to be accepted: csv, json, ...
