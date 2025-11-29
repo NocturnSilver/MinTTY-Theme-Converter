@@ -69,3 +69,4 @@
     - Check the output file if it follows the standard that is accepted
     - accept key-value pairs in the file
     - generate different color harmonies based on one input color
+    - Accept a python list of hex or rbg as arg.
